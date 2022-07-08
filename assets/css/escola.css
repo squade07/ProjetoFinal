@@ -1,0 +1,21 @@
+.escolas {
+    display: flex;
+    padding: 2rem;
+    justify-content: space-around;
+}
+.escolas__mapa {
+    border-radius: 10px;
+    width: 50% ;
+    height: 50rem ;
+    border:solid 5px #2b5675;
+}
+.escola__opiniao {
+    padding: 1rem;
+    border-radius: 10px;
+    border: 5px solid #2b5675;
+}
+.escola__sobre {
+    padding: 1rem;
+    border-radius: 10px;
+    border: 5px solid #2b5675;
+}

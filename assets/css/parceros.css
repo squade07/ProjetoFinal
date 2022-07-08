@@ -1,8 +1,11 @@
-.parceros {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+
 .parceros__imagem {
-    width: 25%;
+    margin-left: 10%;
+    margin-bottom: 2rem;
+    width: 20%;
+    height: 20%;
+}
+.parceros__titulo {
+    margin-bottom: 2rem;
+    font-weight: 700;
 }

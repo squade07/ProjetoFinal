@@ -11,6 +11,16 @@
     border: 5px solid #2b5675;
     width: 30rem;
 }
+.doadores__ativo {
+    border: 5px solid #2b5675;
+    width: 35rem;
+}
+.doadores__titulo {
+    font-weight: 700;
+}
+.doadores__texto {
+    font-weight: 400;
+}
 @media screen and (max-width: 769px) {
     .doadores__imagem {
         width: 50%;
