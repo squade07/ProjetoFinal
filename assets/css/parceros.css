@@ -1,0 +1,8 @@
+.parceros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.parceros__imagem {
+    width: 25%;
+}

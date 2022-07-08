@@ -1,0 +1,22 @@
+.doadores {
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+.doadores__imagem {
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+}
+.doadores__imagem:hover {
+    border: 5px solid #2b5675;
+    width: 30rem;
+}
+@media screen and (max-width: 769px) {
+    .doadores__imagem {
+        width: 50%;
+    }
+    .doadores__imagem:hover {
+        border: 5px solid #2b5675;
+        width: 60%;
+    }
+}
