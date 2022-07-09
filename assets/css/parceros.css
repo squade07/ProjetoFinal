@@ -4,8 +4,17 @@
     margin-bottom: 2rem;
     width: 20%;
     height: 20%;
+    border: 5px solid #2b5675;
 }
 .parceros__titulo {
     margin-bottom: 2rem;
     font-weight: 700;
+}
+@media screen and (max-width: 769px) {
+    .parceros__titulo {
+        font-size: 1rem;
+    }
+    .parceros__imagem {
+        height: 9%;
+    }
 }
