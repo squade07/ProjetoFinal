@@ -30,6 +30,13 @@
 }
 .escola__input {
     border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+}
+.escola__input-area{
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
 }
 @media screen and (max-width: 769px) {
     .escolas {

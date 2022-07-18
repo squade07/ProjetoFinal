@@ -17,6 +17,7 @@
     font-weight: 700;
 }
 .sobre__texto {
+    font-size: 1.5rem;
     text-align: justify;
     font-weight: 400;
 }
@@ -26,7 +27,7 @@
         display: block;
     }
     .sobre__texto {
-        font-size: 0.7rem;
+        font-size: 1rem;
     }
     .sobre__conteudo {
         width: 100%;
