@@ -1,0 +1,8 @@
+.cabecalho {
+    text-transform: uppercase;
+    background-color: #e3f2fd;
+    font-weight: 900;
+}
+.cabecalho__imagem {
+    width: 4rem;
+}

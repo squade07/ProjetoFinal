@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/login.css">
+    <link rel="stylesheet" href="assets/css/cadastro.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html" rel="self"><img src="assets/img/logo-pq.png" alt="Logo Nexos"></a>
+            </div>
+            <div class="sair">
+                <abbr title="Sair">
+                    <a href="index.html" rel="self"><i class="fa-solid fa-right-to-bracket"></i></a>
+                </abbr>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="login">
+            <div class="container">
+                <p>Seja bem-vindo!</p>
+                <img src="assets/img/undraw.png" alt="Login">
+            </div>
+            <div id="form">
+                <!-- Título -->
+                <div class="top-form">
+                    <h1>Login</h1>
+                </div>
+                <!-- !Título -->
+
+                <!-- Dados Login -->
+                <div class="input-group">
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="Digite seu E-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="senha">Senha</label>
+                        <input type="password" id="senha" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="input-checkbox">
+                        <input type="checkbox" name="lembrar" id="lembrar">
+                        <label for="lembrar">Lembrar senha</label>
+                    </div>
+
+                    <div class="input-senha">
+                        <p><a href="#">Esqueci minha senha</a></p>
+                    </div>
+                </div>
+                <!-- !Dados Login -->
+
+                <div class="botao-continuar">
+                    <button><a href="index.html">Continuar</a></button>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
+
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"></script>

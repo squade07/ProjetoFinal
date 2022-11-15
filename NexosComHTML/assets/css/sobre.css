@@ -1,0 +1,38 @@
+.sobre {
+    display: flex;
+    padding: 1.5rem;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+.sobre__imagem {
+    width: 58%;
+    border-radius: 5px;
+    margin: 0;
+}
+.sobre__conteudo {
+    width: 38%;
+    margin: 0;
+}
+.sobre__titulo {
+    font-weight: 700;
+}
+.sobre__texto {
+    font-size: 1.5rem;
+    text-align: justify;
+    font-weight: 400;
+}
+
+@media screen and (max-width: 769px) {
+    .sobre {
+        display: block;
+    }
+    .sobre__texto {
+        font-size: 1rem;
+    }
+    .sobre__conteudo {
+        width: 100%;
+    }
+    .sobre__imagem {
+        width: 100%;
+    }
+}

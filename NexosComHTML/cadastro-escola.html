@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/cadastro.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html" rel="self"><img src="assets/img/logo-pq.png" alt="Logo Nexos"></a>
+            </div>
+            <div class="sair">
+                <abbr title="Sair">
+                    <a href="index.html" rel="self"><i class="fa-solid fa-right-to-bracket"></i></a>
+                </abbr>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="cadastro">
+            <div class="imagem">
+                <img src="assets/img/logo.png" alt="Nexos">
+            </div>
+            <div id="form">
+                <!-- Título -->
+                <div class="top-form">
+                    <h1>Cadastrar Escola</h1>
+                </div>
+                <!-- !Título -->
+
+                <!-- Dados Cadastro -->
+                <div class="input-group">
+
+                    <div class="input-box">
+                        <label for="escola">Nome da Instituição</label>
+                        <input type="text" id="escola" placeholder="Digite o nome da escola" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cie">Código CIE</label>
+                        <input type="number" id="cie" placeholder="Digite o CIE" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="Digite seu E-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cnpj">CNPJ</label>
+                        <input type="number" id="cnpj" placeholder="CNPJ" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="nome">Nome Diretoria</label>
+                        <input type="text" id="nome" placeholder="Nome da Diretoria" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="diretoria">Código Diretoria</label>
+                        <input type="number" id="diretoria" placeholder="Exemplo 00110" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="municipio">Município</label>
+                        <input type="text" id="municipio" placeholder="Município" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="estado">Estado</label>
+                        <input type="text" id="estado" placeholder="Estado" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="endereco">Endereço</label>
+                        <input type="text" id="endereco" placeholder="Endereço" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="cep">CEP</label>
+                        <input type="number" id="cep" placeholder="CEP" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="confirmpassword">Confirmar senha</label>
+                        <input type="password" id="confirmpassword" placeholder="Confirmar senha" required>
+                    </div>
+                </div>
+                <!-- !Dados Cadastro -->
+
+                <!-- Opção -->
+                <div class="genero">
+                    <div class="titulo-genero">
+                        <p>Doações</p>
+                    </div>
+                    <div class="genero-group">
+                        <div class="input-genero">
+                            <input type="radio" id="receber">
+                            <label for="receber">Quero receber</label>
+                        </div>
+                        <div class="input-genero">
+                            <input type="radio" id="doar">
+                            <label for="doar">Quero doar</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- !Opção -->
+
+                <div class="botao-continuar">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-lg-3">
+                <p class="titulo">Sobre nós</p>
+                <p>NEXOS é um conceito visado para resolver um problema social grave em nosso pais, que é a falta de acesso a materiais escolares, e tem como objetivo conectar as escolas para um método de RCD</p>
+                <ul class="social">
+                    <li>
+                        <a href="#" target="_blank" rel="external">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/squade07/ProjetoFinal" target="_blank" rel="external">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" rel="external">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" rel="external">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <p class="titulo">Navegação</p>
+                <ul>
+                    <li><a href="index.html" rel="self">Início</a></li>
+                    <li><a href="#" rel="self">Doações</a></li>
+                    <li><a href="escolas.html" rel="self">Encontrar Escolas</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <p class="titulo">Contato</p>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> (41) 9 9999-9999</li>
+                    <li><i class="fa-brands fa-whatsapp"></i> (41) 9 9999-9999</li>
+                    <li><i class="fa-solid fa-envelope"></i> squad07@teste.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p class="titulo">Nexos</p>
+            <p> &copy; Copyright By @Squad07 - 2022
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"></script>

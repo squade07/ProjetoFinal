@@ -1,0 +1,34 @@
+.doadores {
+    padding: 1rem;
+    justify-content: center;
+    text-align: center;
+}
+.doadores__imagem {
+    border-radius: 3px;
+    margin-bottom: 1.5rem;
+}
+.doadores__imagem:hover {
+    border: 3px solid #2b5675;
+    width: 30rem;
+}
+.doadores__titulo {
+    font-weight: 700;
+}
+.doadores__texto {
+    font-weight: 400;
+}
+@media screen and (max-width: 769px) {
+    .doadores__imagem {
+        width: 40%;
+    }
+    .doadores__imagem:hover {
+        border: 3px solid #2b5675;
+        width: 50%;
+    }
+    .doadores__titulo {
+        font-size: 1rem;
+    }
+    .doadores__texto {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,21 @@
+
+.parceros__imagem {
+    margin-left: 8%;
+    margin-bottom: 2rem;
+    width: 23%;
+    height: 18%;
+    border: 2px solid #2b5675;
+}
+.parceros__titulo {
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+@media screen and (max-width: 769px) {
+    .parceros__titulo {
+        font-size: 1rem;
+    }
+    .parceros__imagem {
+        height: 9%;
+    }
+}

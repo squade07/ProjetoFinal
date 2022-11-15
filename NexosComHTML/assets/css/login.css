@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+/*  Google Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--font-padrao);
+}
+
+/*  Variáveis  */
+:root {
+    --cor0: #e3f2fd;
+    --cor1: #67ADD4;
+    --cor2: #159A9C;
+    --cor3: #317dc0;
+    --cor4: #002333;
+    --cor5: white;
+
+    --font-destaque: 'Bebas Neue', cursive;
+    --font-padrao: Arial, Verdana, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(../img/background.jpg);
+}
+
+main {
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+/*  Login  */
+section#login {
+    width: 60%;
+    display: flex;
+    border-radius:10px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+    background-color: var(--cor5);
+}
+
+.container {
+    background-color: var(--cor0);
+}
+
+.container > p{
+    text-align: center;
+    font-family: var(--font-destaque);
+    font-size: 2em;
+    color: var(--cor4);
+}
+
+#form {
+    width: 70%;
+    align-self: center;
+}
+
+/*  Título Form  */
+.top-form > h1 {
+    font-family: var(--font-destaque);
+    font-weight: normal;
+    font-size: 2em;
+    margin-top: 1em;
+    color: var(--cor4);
+}
+
+.top-form > h1::after {
+    content: '';
+    display: block;
+    width: 1em;
+    height: 0.1em;
+    background-color: var(--cor2);
+    border-radius: 10px;
+}
+
+/*  Campo de Dados*/
+#form {
+    margin-left: 20px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    padding: 1em 1em 1em 0em;
+}
+
+.input-box {
+    display: flex;
+    flex-direction: column;
+    margin: 15px;
+    margin-left: 0px;
+}
+
+.input-checkbox {
+    display: flex;
+    font-size: 0.9em;
+}
+
+.input-checkbox input {
+    margin-right: 5px;
+}
+
+.input-senha {
+    font-size: 0.9em;
+}
+
+.input-box input {
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-top: 10px
+}
+
+.input-box input:hover {
+    box-shadow: 1px 1px 5px var(--cor2);
+}
+
+/*  Botão  */
+.botao-continuar button {
+    padding: 8px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: var(--cor2);
+}
+
+.botao-continuar button a {
+    color: var(--cor5);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 960px) {
+    .container {
+        display: none;
+    }
+
+    section#login {
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 430px) {
+    #form h1 {
+        font-size: 1.5em;
+    }
+
+    .input-group {
+        width: 90%;
+        font-size: 0.8em;
+    }
+
+    .botao-continuar button {
+        font-size: 0.7em;
+    }
+}

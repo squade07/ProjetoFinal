@@ -1,0 +1,72 @@
+.escolas {
+    padding: 2rem;
+    display: block;
+}
+
+.escolas__mapa {
+    border-radius: 10px;
+    width: 98%;
+    border: none;
+    height: 30%;
+}
+
+.escola__sobre {
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.escola__opiniao {
+    padding: 1rem;
+    font-weight: 700;
+}
+
+.escola__titulo {
+    font-weight: 700;
+    color: #2b5675;
+    font-size: 1.5rem;
+}
+
+.escola__subtitulo {
+    font-size: 1rem;
+    color: #2b5675;
+    margin-top: 0.5rem;
+    font-weight: 700;
+}
+
+.escola__input-area {
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    resize: none;
+}
+
+.escola__input {
+    border: none;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.438);
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 769px) {
+    .escolas {
+        display: flex;
+        justify-content:space-around ;
+        padding: 4rem;    }
+    .escolas__mapa {
+        width: 50%;
+        height: auto;
+    }
+    .escola__opiniao {
+        font-size: 1rem;
+    }
+    .escola__titulo{
+        font-size: 2rem;
+    }
+    .escola__sobre {
+        margin-left: 3rem;
+        font-size: 1rem;
+    }
+
+    .escola__subtitulo {
+        font-size: 1.5rem;
+    }
+}

@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/cadastro.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <!-- MDB -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html" rel="self"><img src="assets/img/logo-pq.png" alt="Logo Nexos"></a>
+            </div>
+            <div class="sair">
+                <abbr title="Sair">
+                    <a href="index.html" rel="self"><i class="fa-solid fa-right-to-bracket"></i></a>
+                </abbr>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="cadastro">
+            <div class="imagem">
+                <img src="assets/img/logo.png" alt="Nexos">
+            </div>
+            <div id="form">
+                <!-- Título -->
+                <div class="top-form">
+                    <h1>Cadastrar Doador</h1>
+                </div>
+                <!-- !Título -->
+
+                <!-- Dados Cadastro -->
+                <div class="input-group">
+
+                    <div class="input-box">
+                        <label for="firstname">Nome</label>
+                        <input type="text" id="firstname" placeholder="Digite seu nome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input type="text" id="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="email">E-mail</label>
+                        <input type="email" id="email" placeholder="Digite seu E-mail" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="number">Celular</label>
+                        <input type="tel" id="number" placeholder="Exemplo (00) 0000-0000" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="password">Senha</label>
+                        <input type="password" id="password" placeholder="Digite sua senha" required>
+                    </div>
+
+                    <div class="input-box">
+                        <label for="confirmpassword">Confirmar senha</label>
+                        <input type="password" id="confirmpassword" placeholder="Confirmar senha" required>
+                    </div>
+                </div>
+                <!-- !Dados Cadastro -->
+
+                <!-- Gênero -->
+                <div class="genero">
+                    <div class="titulo-genero">
+                        <p>Gênero</p>
+                    </div>
+                    <div class="genero-group">
+                        <div class="input-genero">
+                            <input type="radio" id="feminino">
+                            <label for="feminino">Feminino</label>
+                        </div>
+                        <div class="input-genero">
+                            <input type="radio" id="masculino">
+                            <label for="masculino">Masculino</label>
+                        </div>
+                        <div class="input-genero">
+                            <input type="radio" id="outro">
+                            <label for="outro">Outro</label>
+                        </div>
+                        <div class="input-genero">
+                            <input type="radio" id="none">
+                            <label for="none">Prefiro não dizer</label>
+                        </div>
+                    </div>
+                </div>
+                <!-- !Gênero -->
+
+                <div class="botao-continuar">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="row">
+            <div class="col-lg-3">
+                <p class="titulo">Sobre nós</p>
+                <p>NEXOS é um conceito visado para resolver um problema social grave em nosso pais, que é a falta de acesso a materiais escolares, e tem como objetivo conectar as escolas para um método de RCD</p>
+                <ul class="social">
+                    <li>
+                        <a href="#" target="_blank" rel="external">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/squade07/ProjetoFinal" target="_blank" rel="external">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" rel="external">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" target="_blank" rel="external">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <p class="titulo">Navegação</p>
+                <ul>
+                    <li><a href="index.html" rel="self">Início</a></li>
+                    <li><a href="#" rel="self">Doações</a></li>
+                    <li><a href="escolas.html" rel="self">Encontrar Escolas</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3">
+                <p class="titulo">Contato</p>
+                <ul>
+                    <li><i class="fa-solid fa-phone"></i> (41) 9 9999-9999</li>
+                    <li><i class="fa-brands fa-whatsapp"></i> (41) 9 9999-9999</li>
+                    <li><i class="fa-solid fa-envelope"></i> squad07@teste.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p class="titulo">Nexos</p>
+            <p> &copy; Copyright By @Squad07 - 2022
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!-- MDB -->
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/4.2.0/mdb.min.js"></script>
